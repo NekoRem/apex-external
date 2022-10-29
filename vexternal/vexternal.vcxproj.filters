@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="header files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="source files\imgui">
+      <UniqueIdentifier>{98b1bedb-0a0d-4692-a3be-6771b2a40eff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\opengl">
+      <UniqueIdentifier>{06047b7f-60b2-413a-9753-75ae5925f955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\sdk">
+      <UniqueIdentifier>{50a6862a-e626-4f27-80a8-fe6b66997a17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\imgui">
+      <UniqueIdentifier>{843ab111-b0dc-47cc-bf9e-e9d50d832f86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui.cpp">
+      <Filter>source files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_demo.cpp">
+      <Filter>source files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_draw.cpp">
+      <Filter>source files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_glfw.cpp">
+      <Filter>source files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_opengl3.cpp">
+      <Filter>source files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_tables.cpp">
+      <Filter>source files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_widgets.cpp">
+      <Filter>source files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_custom.cpp">
+      <Filter>source files\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="globals.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="strings.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="helper.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GLFW\glfw3.h">
+      <Filter>header files\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GLFW\glfw3native.h">
+      <Filter>header files\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\eglew.h">
+      <Filter>header files\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\glew.h">
+      <Filter>header files\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\glxew.h">
+      <Filter>header files\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\wglew.h">
+      <Filter>header files\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="c_player.h">
+      <Filter>header files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>header files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>header files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imconfig.h">
+      <Filter>header files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui.h">
+      <Filter>header files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_impl_glfw.h">
+      <Filter>header files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_impl_opengl3.h">
+      <Filter>header files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_internal.h">
+      <Filter>header files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_rectpack.h">
+      <Filter>header files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_textedit.h">
+      <Filter>header files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_truetype.h">
+      <Filter>header files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="c_loot.h">
+      <Filter>header files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>header files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>header files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="usercmd.h">
+      <Filter>header files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="globalvars.h">
+      <Filter>header files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="c_input.h">
+      <Filter>header files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="c_weapon.h">
+      <Filter>header files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_custom.h">
+      <Filter>header files\imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
